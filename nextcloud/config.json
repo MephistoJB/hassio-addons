@@ -8,6 +8,7 @@
     "panel_icon": "mdi:cloud-sync",
     "startup": "services",
     "boot": "auto",
+    "host_network" : "true",
   "services": ["mysql:need"],
   "hassio_api": true,
   "hassio_role": "default",
